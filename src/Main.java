@@ -5,6 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("年齢を入力してください>>");
         Calculator calc = new Calculator();
-        calc.ticket_system(sc.nextInt());
+        System.out.println(calc.ticket_system(sc.nextInt()));
     }
 }
